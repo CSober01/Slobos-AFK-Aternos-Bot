@@ -1,4 +1,5 @@
 {
+  "name": "AFK Bot",
   "bot-account": {
     "username": "SEabot001",
     "type": "offline"
@@ -16,6 +17,10 @@
       "enabled": true,
       "sneak": false
     },
+    "chat-messages": {
+      "enabled": false
+    },
+    "chat-log": true,
     "auto-reconnect": true,
     "auto-reconnect-delay": 15000,
     "max-reconnect-delay": 300000
@@ -29,15 +34,12 @@
     },
     "look-around": {
       "enabled": true,
-      "interval": 5000
+      "interval": 7000
     },
     "random-jump": {
       "enabled": true,
-      "interval": 12000
+      "interval": 15000
     }
-  },
-  "chat-messages": {
-    "enabled": false
   },
   "modules": {
     "avoidMobs": false,
