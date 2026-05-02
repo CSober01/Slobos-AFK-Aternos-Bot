@@ -7,7 +7,7 @@
   "server": {
     "ip": "CSober.aternos.me",
     "port": 14104,
-    "version": "1.21.1"
+    "version": "1.21.10"
   },
   "utils": {
     "auto-auth": {
