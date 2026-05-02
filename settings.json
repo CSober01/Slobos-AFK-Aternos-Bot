@@ -21,7 +21,20 @@
     "max-reconnect-delay": 300000
   },
   "movement": {
-    "enabled": false
+    "enabled": true,
+    "circle-walk": {
+      "enabled": true,
+      "radius": 3,
+      "speed": 4000
+    },
+    "look-around": {
+      "enabled": true,
+      "interval": 5000
+    },
+    "random-jump": {
+      "enabled": true,
+      "interval": 12000
+    }
   },
   "chat-messages": {
     "enabled": false
@@ -29,8 +42,12 @@
   "modules": {
     "avoidMobs": false,
     "combat": false,
-    "beds": false,
+    "beds": true,
     "chat": false,
     "console-commands": false
+  },
+  "beds": {
+    "pick-up-day": false,
+    "place-night": false
   }
 }
