@@ -20,7 +20,7 @@
     "chat-messages": {
       "enabled": false
     },
-    "chat-log": true,
+    "chat-log": false,
     "auto-reconnect": true,
     "auto-reconnect-delay": 60000,
     "max-reconnect-delay": 90000
